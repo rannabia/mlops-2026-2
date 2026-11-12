@@ -4,7 +4,7 @@ services:
 
   intent-clf:
 
-    container_name: mlops-container
+    container_name: intent-clf
     build: 
       context: .
       dockerfile: Dockerfile
